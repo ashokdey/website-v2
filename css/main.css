@@ -1,0 +1,600 @@
+/*
+**************************************************
+		Style Sheet for My Personal Website 
+		Version - v2.0
+		Created and Maintained by - ASHOK DEY
+		wwww.ashokdey.com
+
+**************************************************
+
+*/
+
+/*
+--------------------------------------------------
+			Modifying Chrome Scroll Bar
+--------------------------------------------------
+*/
+
+
+/*
+---------------------------------------------------
+			Scroll Modification Ends :-)
+---------------------------------------------------
+*/
+
+
+
+
+body {
+	background-color: gray;
+	height: 100%;
+}
+
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('../img/Preloader_64.gif') center no-repeat #fff;
+}
+
+p {
+	margin: 0;
+}
+
+.center-text {
+	text-align: center;
+}
+
+.center-block {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+/*
+-------------------------------------------
+			NAVIGATION STYLE
+-------------------------------------------
+*/
+
+nav#navigation-bar {
+	display: none;
+	position: fixed;
+	top: 0;
+}
+
+.nav-holder {
+	width: 90%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.nav-bar {
+	width: 100%;
+	background: rgba(52, 73, 94, 0.6);
+}
+
+.nav-holder {
+	overflow: hidden;
+	height: 70px;
+}
+
+.nav-list {
+	text-decoration: none;
+}
+
+.nav-logo {
+	float: left;
+	margin-top: 1.5%;
+}
+
+.nav-menu {
+	display: none;
+}
+
+.nav-menu {
+	display: none;
+}
+
+.nav-menu-text {
+	display: none;
+}
+
+.nav-list {
+	float: right;
+	margin-top: 0.4%;
+}
+
+.nav-list li {
+	float: left;
+}
+
+.nav-list li a {
+	display: block;
+	padding: 20px 10px;
+	color: #f9f9f9;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.25em;
+	font-weight: 300;
+}
+
+/*
+================================================
+			HEADER STYLES
+================================================
+*/
+
+
+.header-wrapper {
+	width: 90%;
+	max-width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+header {
+	width: 100%;
+	height: 700px;
+	background: url('../img/bg.png') no-repeat center/cover;
+}
+
+header img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
+}
+
+header hgroup {
+	text-align: center;
+	color: #f9f9f9;
+	margin-top: 9%;
+}
+
+h3, h4 {
+	font-family: 'Droid Sans', sans-serif;
+}
+
+header h1 {
+	font-family: 'Alex Brush', cursive;
+	font-size: 10em;
+	font-weight: 500;
+}
+
+header h3 {
+	font-size: 2.25em;
+	font-weight: 600;
+	margin-bottom: 1.825%
+}
+
+header h4 {
+	font-size: 1.625em;
+}
+
+.custom-pulse {
+	animation-duration: 3s;
+    -webkit-animation-duration: 3s;
+    -moz-animation-duration: 3s;
+    -o-animation-duration: 3s;
+    -ms-animation-duration: 3s;
+    animation-delay: 2s;
+    -webkit-animation-delay: 2s;
+    -moz-animation-delay: 2s;
+    -o-animation-delay: 2s;
+    -ms-animation-delay: 2s;
+    animation-iteration-count: 5;
+    -webkit-animation-iteration-count: 5;
+    -moz-animation-iteration-count: 5;
+    -o-animation-iteration-count: 5;
+    -ms-animation-iteration-count: 5;
+
+}
+
+hgroup h3 a {
+	text-decoration: none;
+	color: #f9f9f9;
+}
+
+hgroup h3 a:hover {
+	color: #f9f9f9;
+}
+
+hgroup h3 a:active {
+	color: #f9f9f9;
+}
+
+hgroup h3 a:visited {
+	color: #f9f9f9;
+}
+
+/*
+==============================================
+			ABOUT STYLES
+==============================================
+
+*/
+.section-2 {
+	background: #f9f9f9;
+	height: 800px;
+	width: 100%;
+}
+
+.abt-wrapper {
+	padding-top: 5%;
+	width: 90%;
+	max-width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+
+
+section#about {
+	height: 1000px;
+}
+
+section#about h2 {
+	font-family: 'Alex Brush', cursive;
+	font-weight: 200;	
+	color: #ab040c;
+	font-size: 3.8em;
+	margin-top: 4%; 
+}
+
+.my-pic {
+	margin-top: 5%;
+}
+
+.abt-text {
+	width: 100%;
+	max-width: 950px;
+	min-width: 200px;
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.4em;
+	font-weight: 300;
+	color: #ab040c;
+	margin-top: 4.5%;
+	text-align: justify;
+}
+
+.abt-text-2 {
+	width: 100%;
+	max-width: 950px;
+	min-width: 200px;
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.4em;
+	font-weight: 300;
+	color: #ab040c;
+	margin-top: 3%;
+	text-align: justify;
+}
+
+.abt-text span, .abt-text-2 span {
+	font-weight: 400;
+	padding: 2px;
+	color: #282828;
+	font-size: 0.9em;
+	font-style: italic;
+}
+
+.social-abt-hold {
+	width: 100%;
+	max-width: 150px;
+	min-width: 50px;
+	margin-top: 2.5%;
+}
+
+.fa-lg {
+	font-size: 1.85em;
+}
+
+.social-abt a {
+	text-decoration: none;
+	color: #282828;
+	margin: 0 6% 0 6%;
+}
+
+.social-abt {
+	color: #282828;
+}
+
+.symbol {
+	font-size: 1.4em;
+}
+
+
+
+/*
+==============================================
+			SKILLS STYLES
+==============================================
+
+*/
+
+#skills {
+	padding-top: 5%;
+	background: url('../img/skill-bg.png') #444444;
+	width: 100%;
+	height: 1000px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	text-align: center;
+}
+
+.wrapper-skills {
+	padding-top: 3%;
+	width: 90%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+
+.wrapper-skills h2 {
+	font-family: 'Alex Brush', cursive;
+	font-weight: 200;	
+	color: #282828;
+	color: #f9f9f9;
+	font-size: 4.25em;
+	margin-top: 0;
+}
+
+.wrapper-skills p.text-skills {
+	font-family: 'Roboto', sans-serif;
+	display: block;
+	margin-top: 5%;
+	font-weight: 300;
+	max-width: 1100px;
+	font-size: 1.655em;
+	color: #f9f9f9;
+	text-align: justify;
+}
+
+.meter-holder {
+	width: 100;
+	margin: 0 auto;
+	margin-top: 3%;
+}
+
+.skill-title {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.4em;
+	font-weight: 500;
+	color: #f9f9f9;
+	margin-bottom: -3%;
+}
+
+.meter-bar {
+	width: 100%;
+	max-width: 500px;
+	min-width: 200px;
+	height: 45px;
+	border: 2px solid #962a1b;  /*Dark Maroon*/
+	border: 2px solid #15659c;
+	border-radius: 0px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	color: #f9f9f9;
+	font-size: 1.4em;
+	padding-top: 7px;
+}
+
+.meter-level {
+	background: #962a1b; /*Dark Maroon*/
+	background: #15659c;
+	height: 45px;
+	width: 0;
+	border-radius: 0px;
+	margin-top: -37px;
+	margin-left: -2px;
+}
+
+
+
+.resume-btn {
+	text-decoration: none;
+	color: #000;
+	margin-top: 10%;
+	background: #f9f9f9;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.85em;
+	max-width: 250px;
+	min-width: 70px;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-o-border-radius: 20px;
+	-ms-border-radius: 20px;	
+	-webkit-transition: background-color 1s ease-out;
+	-moz-transition: background-color 1s ease-out;
+	-ms-transition: background-color 1s ease-out;
+	-o-transition: background-color 1s ease-out;
+	transition: background-color 1s ease-out;
+}
+
+a.resume-btn {
+	text-decoration: none;
+	padding: 5px;
+	padding-bottom: 5px;
+}
+
+.resume-btn:hover {
+	background: #fdf63d;
+	text-decoration: none;
+	color: #000;
+}
+
+/*
+==============================================
+			FOOTER STYLES
+==============================================
+
+*/
+
+footer {
+	padding-top: 5%;
+	background: url('../img/con-bg.png');
+	width: 100%;
+	height: 800px;
+	text-align: center;
+	padding-top: 3%;
+	color: #f9f9f9;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;	
+}
+
+.wrapper-footer {
+	padding-top: 3%;
+	width: 90%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+
+footer h2 {
+	font-family: 'Alex Brush', cursive;
+	font-weight: 200;	
+	color: #282828;
+	color: #f9f9f9;
+	font-size: 4.25em;
+}
+
+footer .email-button {
+	background: #f9f9f9;
+	margin-top: 1.5%;
+	padding-top: 1px;
+	color :#000;
+	display: block;
+	font-family: 'Roboto', sans-serif;
+	font-size: 2em;
+	height: 45px;
+	width: 100%;
+	text-align: center;
+	max-width: 350px;
+	min-width: 70px;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-o-border-radius: 20px;
+	-ms-border-radius: 20px;	
+	-webkit-transition: background-color 1s ease-out;
+	-moz-transition: background-color 1s ease-out;
+	-ms-transition: background-color 1s ease-out;
+	-o-transition: background-color 1s ease-out;
+	transition: background-color 1s ease-out;
+}
+
+.email-button:hover {
+	background: #fdf63d;
+	border-radius: 20px;
+}
+
+footer a.email-button {
+	text-decoration: none;
+}
+
+footer p.text-footer {
+	font-family: 'Roboto', sans-serif;
+	display: block;
+	margin-top: 10%;
+	font-weight: 400;
+	max-width: 800px;
+	font-size: 1.75em;
+	color: #f9f9f9;
+}
+
+footer p.email {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-size: 1.5em;
+	margin-top: 2%;
+}
+
+
+.span-text{
+	font-family: 'Alex Brush', cursive;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 1.3em;
+}
+
+
+.span-text span {
+	color: #f9f9f9;
+	font-size: 1.3em !important;
+	margin: 0 2px 0 2px;
+}
+
+.copy-reg {
+	font-family: 'Roboto', sans-serif;
+	margin-top: 0%;
+	font-size: 1em;
+}
+
+
+/*
+==================================================
+	SOCIAL LINKS STYLE
+==================================================
+*/
+
+.social-foot {
+	width: 100%;
+	max-width: 500px;
+	min-width: 80px;
+	margin-top: 3%;
+	margin-bottom: 4%;
+}
+
+.fa-2x {
+	font-size: 2.5em;
+}
+
+.social a {
+	height: 32px;
+	width: 32px;
+	color: #f9f9f9;
+	display: inline-block;
+	text-decoration: none;
+	margin: 20px 10px 0px 10px;
+	-webkit-transition:color 1s ease;
+	-moz-transition:color 1s ease;
+	-o-transition:color 1s ease;
+	transition:color 1s ease;
+}
+
+.twitter:hover {
+	color :#28aae1;
+}
+
+.facebook:hover {
+	color: #3c5a99;
+}
+
+.google:hover {
+	color: #dd4b39;
+}
+
+.linked-in:hover {
+	color: #007bb5;
+}
+
+.stackof:hover {
+	color: #282828;
+}
+
+.github:hover {
+	color: #282828;
+}
+

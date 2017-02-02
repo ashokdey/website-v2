@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Game</title>
+</head>
+<body>
+   <h3>A simple JS game....</h3>
+   <h5>Click mouse/button in the box to move the black box to the green box</h5>
+   <hr>
+   <br>
+    <canvas id="myCanvas" width="500px" height="300px" style="border: 2px solid #000">
+    </canvas>
+    <br><br><br>
+    <button type="button" id="move-btn">Move Right</button>
+    <script>
+        var canvas = document.getElementById('myCanvas');
+        var pen = canvas.getContext('2d');
+        var button = document.getElementById('move-btn');
+
+        
+        GAME_RUNNING = true;
+        
+        function isColliding(r1, r2) {
+            var x_axis = Math.abs(r1.x - r2.x) <= 50;
+            var y_axis = Math.abs(r1.y - r2.y) <= 50;
+            
+            if ( x_axis && y_axis){
+                return true;
+            }
+            else {
+                return false;
+            }
+        }
+        
+        // declare the init function
+        function init() {
+            // Set goals, define player, define enemy
+            GAME_WIDTH = 500;
+            GAME_HEIGHT = 300;
+            
+            
+             enemy = {
+                x : 150,
+                y : 70,
+                w : 50,
+                h : 50,
+                speedY : 5
+            };
+            
+             player = {
+                x: 0,
+                y: 120,
+                w: 50,
+                h: 50,
+                speedX: 4,
+                isMoving: false,
+            };
+            
+             goal = {
+                x: 450,
+                y: 120,
+                w: 50,
+                h: 50,
+            };
+            
+            canvas.addEventListener('mousedown', function() {
+               console.log('mouse clicked');  
+                player.isMoving = true;
+            });
+            
+            canvas.addEventListener('mouseup', function(){
+                console.log('mouse left');
+                player.isMoving = false;
+            });
+            
+            button.addEventListener('mousedown', function(){
+               console.log('move button pressed');
+                player.isMoving = true;
+            });
+            
+            button.addEventListener('mouseup', function(){
+               console.log('button left');
+               player.isMoving = false;
+            });
+            
+        }
+        
+        function draw() {
+            // draw enemy 
+            pen.fillStyle = "red";
+            pen.clearRect(0, 0, GAME_WIDTH, GAME_HEIGHT);
+            pen.fillRect(enemy.x, enemy.y, enemy.w, enemy.h);
+
+            pen.fillStyle = "black";
+            //Draw the player
+            pen.fillRect(player.x,player.y,player.w,player.h);
+                        
+            pen.fillStyle = "green";
+            //Draw the Goal
+            pen.fillRect(goal.x,goal.y,goal.w,goal.h);
+    
+        }
+        
+        function update() {
+            enemy.y += enemy.speedY;
+            
+            if (enemy.y >= (GAME_HEIGHT - enemy.h) || (enemy.y <= 0)) {
+                enemy.speedY *= -1;
+            }
+            
+            if (player.isMoving == true) {
+                player.x += player.speedX;
+            }
+            
+            if (isColliding(player, enemy)){
+                GAME_RUNNING = false;
+                
+                alert('You Lost :( Want to play?');
+            }
+            
+            if (isColliding(player, goal)) {
+                GAME_RUNNING = false;
+                alert('You Won !!! Want to play again?');
+            }
+        }
+        
+        function render() {
+            // game Loop here
+            draw();
+            update();
+            console.log("In Render");
+            if (GAME_RUNNING == true) {
+                window.requestAnimationFrame(render);
+            }
+            else {
+                GAME_RUNNING = true;
+                start_game();  
+            }        
+        }
+        
+        function start_game() { 
+            init();
+            render();   
+        }
+        
+        start_game();
+        
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,148 @@
+body {
+	background-color: #f9fdff;
+}
+
+.main-container {
+	height: 100%;
+	background-color: #f2f9fc;
+}
+
+.my-jumbo {
+	padding: 1%;
+	padding-top: 5%;
+	background-color: #f2f9fc;
+}
+
+.my-head {
+	font-weight: bold;
+	font-size: 3em;
+	color: #5ecaf2;
+}
+
+.my-lead {
+	font-size: .8em;
+	margin-top: -10px;
+	font-weight: bold;
+}
+
+.get-started-btn {
+	margin-top: 1%;
+	padding: 1%;
+	color: #5ecaf2;
+	background-color: transparent;
+	border-color: #5ecaf2;
+	font-weight: bold;
+}
+
+.get-started-btn:hover {
+	color: #000;
+	background-color: transparent;
+	border-color: #000;
+	font-weight: bold;
+}
+
+
+.get-started-btn:focus {
+	color: #000;
+	background-color: transparent;
+	border-color: #000;
+	font-weight: bold;
+}
+
+
+.get-started-btn:active:focus {
+	color: #000;
+	background-color: transparent;
+	border-color: #000;
+	font-weight: bold;
+}
+
+
+.get-started-btn:active:hover {
+	color: #000;
+	background-color: transparent;
+	border-color: #000;
+	font-weight: bold;
+}
+
+.main-container-2 {
+	background-color: #5ecaf2;
+}
+
+.my-jumbo-2 {
+	background-color: #5ecaf2;
+	padding-bottom: 2%;
+}
+
+.main-container-3 {
+	background-color: #f9fdff;
+}
+
+.my-crum {
+	background-color: #f9fdff;
+}
+
+.add-task-btn {
+	margin-top: 1%;
+	padding: 1%;
+	color: #c0392b;
+	background-color: transparent;
+	border-color: #c0392b;
+	font-weight: bold;
+}
+
+.add-task-btn:hover {
+	color: #000;
+	background-color: transparent;
+	border-color: #000;
+	font-weight: bold;
+}
+
+
+.add-task-btn:focus {
+	color: #000;
+	background-color: transparent;
+	border-color: #000;
+	font-weight: bold;
+}
+
+
+.add-task-btn:active:focus {
+	color: #000;
+	background-color: transparent;
+	border-color: #000;
+	font-weight: bold;
+}
+
+
+.add-task-btn:active:hover {
+	color: #000;
+	background-color: transparent;
+	border-color: #000;
+	font-weight: bold;
+}
+
+#task-heading {
+	font-size: 1em;
+	font-weight: bold;
+	color: #c0392b;
+}
+
+.my-border-1 {
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	min-height: 50px;
+	padding-top: 1%;
+
+}
+
+.my-border-2 {
+	border-bottom: 1px solid #000;
+	font-size: 1em;
+	font-weight: normal;
+	min-height: 50px;
+}
+
+#task-row {
+    font-size: 1em;
+}

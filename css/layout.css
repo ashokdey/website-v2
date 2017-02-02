@@ -1,0 +1,399 @@
+
+@media screen and (max-width: 767px) {
+	
+	.nav-bar {
+  		width: 100%;
+  		background: rgb(52, 73, 94);
+  		background: rgba(52, 73, 94, 0.9);
+	}
+
+	.nav-holder {
+		height: auto;
+		text-align: center;
+	}
+
+
+	.nav-logo {
+		margin-top: 2.2%;
+	}
+
+	.nav-menu {
+		float: right;
+		font-family: 'Roboto', sans-serif;
+		color: #f9f9f9;
+		cursor: pointer;
+		display: block;
+		font-size: 2em;
+		font-weight: 400;
+		margin-top: 2.2%;
+		text-decoration: none;
+	}
+
+	.nav-menu:hover {
+		color: #f9f9f9;
+		text-decoration: none;
+	}
+
+	.nav-list {
+		float: left;
+		width: 100%;
+		overflow: hidden;
+		height: 0;
+	}
+
+	.nav-open {
+		height: auto;
+	}
+
+	.nav-list li {
+		width: 100%;
+	}
+} /*End of 768*/
+
+
+
+@media screen and (max-width: 450px) {
+	
+
+	.se-pre-con {
+		position: fixed;
+		left: 0px;
+		top: 0px;
+		width: 100%;
+		height: 100%;
+		z-index: 9999;
+		background: url('../img/Preloader_32.gif') center no-repeat #fff;
+	}
+
+
+	header {
+		height: 500px;
+		background: #34495e url('../img/bg-res.png') no-repeat cover;
+	}
+
+	#skills {
+		background-image: url('../img/skill-bg-res.png');
+		/*
+		background: url('../img/skill-bg-res.png') #5aaee7;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		*/
+	}
+
+	#contact {
+		background: #9a59b5 url('../img/contact-bg-res.png') center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.nav-holder {
+		text-align: center;
+	}
+
+
+	.header-logo {
+		display: none;
+	}
+
+	.nav-logo {
+		margin-top: 4.5%;
+	}
+	
+	.nav-menu {
+		margin-top: 4.5%;
+	}
+
+	.nav-menu-text {
+		display: block;
+	}
+
+	.nav-holder p.nav-menu-text {
+		font-family: 'Roboto', sans-serif;
+		font-size: 1.5em;
+		color: #f9f9f9;
+		margin-top: 6%;
+	}
+
+	header h1 {
+		font-size: 5em;
+	}
+	
+	header h3 {
+  		font-size: 1.2em;
+  		margin-top: 5%;
+  		margin-bottom: 25%;
+  	}
+
+	header h4 {
+		font-size: 1.3em;
+	    margin: 40% 0 10% 0;
+	}
+
+	header h4.short-intro {
+		display: none;
+	}
+
+	section#about h2 {
+		margin-top: 20%;
+	}
+
+	.my-pic {
+		margin-top: 10%;
+	}
+
+	.social-abt {
+  		margin-top: 25%;
+	}
+
+	.abt-text-2 {
+		font-size: 1.3em;
+	}
+
+	.symbol {
+		margin-top: 5%;
+	}
+
+	section#about {
+  		height: 1260px;
+	}
+
+	/*SKILLS STYLE*/
+
+
+	.wrapper-skills h2 {
+		margin-top: 15%;
+	}
+
+	.wrapper-skills p.text-skills {
+		font-size: 1.4em;
+		margin: 15% 0 20% 0;
+	}
+
+	.html-css {
+		width: 90%;
+	}
+
+	.js {
+		width: 70%;
+	}
+
+	.php {
+		width: 60%;
+	}
+
+	.c-cpp {
+		width: 50%;
+	}
+
+	.java {
+		width: 65%;
+	}
+
+	.resume-btn {
+		margin-top: 20%;
+	}
+
+
+	/*FOOTER STYLE*/
+	
+	#contact {
+		height: 710px;
+	}
+
+	footer h2 {
+		margin-top: 25%;
+	}
+
+	footer p.text-footer {
+		font-size: 1.5em;
+		margin-bottom: 10%;
+	}
+
+	footer .email-button {
+		font-size: 1.8em;
+		max-width: 315px;
+	}
+
+	.footer .email-button {
+		padding-top: 3px;
+	}
+
+	.social-footer {
+		margin: 10% 0 10% 0;
+		font-size: 0.8em;
+	}
+
+} /*Ending of 450px*/
+
+
+@media screen and (max-width: 380px) {
+	
+	.nav-logo {
+		display: none;
+	}
+
+	.social a {
+		margin: 20px 5px 0px 5px;
+	}
+
+	.footer .email-button {
+  		font-size: 1.5em;
+  		max-width: 280px;
+	}
+
+} /*END of 380px*/
+
+@media screen and (max-width: 320px) {
+
+	.nav-logo {
+		display: none;
+	}
+
+	.nav-menu {
+		margin-top: 3.5%;
+		font-size: 1.5em;
+	}
+
+	.nav-holder p.nav-menu-text {
+		margin-top: 3.5%;
+	}
+
+	header {
+		height: 450px;
+	}
+
+	header h1 {
+		font-size: 4em;
+	}
+
+	header h4 {
+		font-size: 1.1em;
+		margin-top: 30%;
+	}
+
+	header h3 {
+		font-size: 1em;
+		margin-bottom: 25%;
+	}
+
+	hgroup h3 a {
+		font-size: 1.5em;
+	}
+
+	/*ABOUT Section */
+	
+	section#about {
+		height: 1080px;
+	}
+
+	section#about h2 {
+  		margin-top: 20%;
+  		font-size: 2.8em;
+	}
+
+	.my-pic {
+		height: 150px;
+		width: 150px;
+	}
+
+	.social-abt {
+		font-size: 0.8em;
+		margin-top: 20%;
+	}
+
+	.abt-text {
+		font-size: 1.2em;
+	}
+
+	.abt-text-2 {
+		font-size: 1.2em;
+		margin-bottom: 10%;
+	}
+
+	/*SKILLS Style*/
+
+	#skills {
+		height: 890px;
+	}
+
+	.wrapper-skills h2 {
+		font-size: 2.8em;
+	}
+
+	.wrapper-skills p.text-skills {
+		font-size: 1.2em;
+	}
+	
+	.resume-btn {
+		font-size: 1.5em;
+		max-width: 200px;
+		margin-top: 20%;
+	}
+
+	a.resume-btn {
+		padding-bottom: 8px;
+	}
+
+	/*CONTACT Style*/
+
+	footer#contact {
+		height: 555px;
+	}
+
+	footer h2 {
+		font-size: 2.8em;
+	}
+
+	footer p.text-footer {
+		font-size: 1.2em;
+		font-weight: 300;
+	}
+
+	footer p.email {
+		font-size: 1.3em;
+		font-weight: 400;
+	}
+
+	footer a.email-button {
+		font-size: 1.4em;
+		max-width: 250px;
+		margin-top: 5.5%;
+		padding-top: 5px;
+	}
+
+	.social-footer {
+		font-size: 0.6em;
+	}
+
+	.span-text {
+		font-size: 1em;
+	}
+
+
+} /*End of 320px*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

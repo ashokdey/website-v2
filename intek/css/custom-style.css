@@ -1,0 +1,185 @@
+.center {
+	text-align:center
+}
+
+@font-face {
+    font-family: 'Odin'; /*a name to be used later*/
+    src: url('../fonts/odin-bold.otf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Streetwear'; /*a name to be used later*/
+    src: url('../fonts/Streetwear-regular.otf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'MyriadProCondensed'; /*a name to be used later*/
+    src: url('../fonts/myproc.otf'); /*URL to font*/
+}
+
+.nav-font {
+	font-family: 'MyriadProCondensed';
+}
+
+.myfont2 {
+    font-family: 'Streetwear';
+}
+
+.myfont {
+    font-family: 'Odin';
+}
+
+.font-large {
+	font-size: 1.5em;
+}
+
+.font-medium {
+	font-size: 1.2em
+}
+
+.bold {
+	font-weight: bold;
+}
+
+body {
+	background: #f2ffff;
+}
+
+.intro {
+	background: url('../img/header-bg.png') #f2ffff center no-repeat;
+	height: 600px;
+	width: auto;
+}
+
+.active2 {
+	border-bottom: #3e4141 2px solid ;
+}
+
+ul li a {
+	color: #3e4141;
+}
+
+.color1 {
+	color: #3d7070;
+}
+
+.abt-img-holder img {
+	height: 160px;
+}
+
+.section1 {
+	margin: 0 auto;
+}
+
+div.quote {
+	width: 100%;
+	background: #ffffff;
+}
+
+footer {
+	background: #34495e;
+	color:#fff;
+	padding-top: 3%;
+}
+
+/*===========================================================================================*/
+
+.section-1 {
+	background: #ecf0f1;
+}
+
+.section-1 a.btn-sm {
+	padding: 5px 20px;
+	font-size: 20px;
+	line-height: 1.5;
+	border-radius: 130px;
+	-webkit-border-radius: 130px;
+	-moz-border-radius: 130px;
+	-o-border-radius: 130px;
+	-ms-border-radius: 130px;
+}
+
+.section-1 a.btn-sm h2 {
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+.section-2 {
+	background: #fff;
+}
+
+
+.section-3 {
+	background: #d8dadb;
+	padding-top: 3%;
+}
+
+.section-1 div.container div.abt-img-holder {
+	margin-left: 7%;
+}
+
+.section-3 div.container div.benifits {
+	margin-left: 9%;
+}
+
+.benifits-intro-1 img {
+	height: 106px;
+}
+
+.benifits-intro-1 p {
+	max-width: 200px;
+}
+
+
+.section-4 {
+	background: #f4f6f7; 
+}
+
+.section-4 div.f-courses-holder {
+	margin-left: 11%;
+}
+
+div.f-courses-holder p {
+	max-width: 150px;
+}
+
+.section-5 {
+	background: #ecf0f1;
+}
+
+.section-5 div.newsletter input {
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-o-border-radius: 20px;
+	-ms-border-radius: 20px;
+	height: 45px;
+	width:250px;
+}
+
+.section-5 div.newsletter a.btn-lg {
+	padding: 10px 15px;
+	font-size: 18px;
+	line-height: 1.33;
+	border-radius: 25px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	-o-border-radius: 25px;
+	-ms-border-radius: 25px;
+}
+
+.section-5 div.newsletter a.btn-lg h3 {
+	margin-top: -5px;
+	margin-bottom: 2px;
+}
+
+p.foot-p-head {
+	text-decoration: underline;;
+}
+
+footer p.footer-abt {
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}

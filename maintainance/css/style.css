@@ -1,0 +1,54 @@
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	background: url('../img/bg2a.png') #282828;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	text-align: center;
+	height: 100%;
+	width: 100%;
+
+}
+
+.wrapper {
+	padding-top: 10%;
+	width: 90%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.wrapper img {
+	margin-bottom: 12%;
+}
+
+.wrapper h1 {
+	font-family: 'Alex Brush', cursive;
+	font-size: 5em;
+	font-weight: 300;
+	color: #fff;
+}
+
+.wrapper h3 {
+	font-family: 'Roboto', sans-serif;
+	font-style: italic;
+	font-size: 1.1em;
+	color: #fff;
+	margin-top: 1.5%;
+}
+
+.wrapper h3 a {
+	text-decoration: none;
+	color: #fdf63d;
+}
+
+.wrapper h3 a:hover {
+	color: #000;
+}

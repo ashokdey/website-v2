@@ -1,0 +1,729 @@
+/*
+**************************************************
+		Style Sheet for My Personal Website 
+		Version - v2.0
+		Created and Maintained by - ASHOK DEY
+		wwww.ashokdey.com
+
+**************************************************
+
+|||||||||||||||||||||||||||||||||||||||||||||||||
+		[[[--COMMON STYLES FOR ALL--]]]
+-------------------------------------------------
+|||||||||||||||||||||||||||||||||||||||||||||||||
+*/
+body { 
+	background: url(../images/pattern.png);
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    background: #a81d0f;
+    /*-webkit-border-radius: 10px;*/
+    /*border-radius: 10px;*/
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+   /* -webkit-border-radius: 10px;
+    border-radius: 10px;*/
+    background: #e74c3c; 
+    /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); */
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(255,0,0,0.4); 
+}
+
+.section {
+	display: block;
+	position: absolute;
+	left:170px;
+	width: 1000px;
+	height: 650px;
+	margin: 0 auto;
+	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h2 {
+	font-size: 1.8em;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.special {
+	color: #e74c3c;
+}
+
+.special2 {
+	color: #a81d0f;
+}
+
+.upper {
+	text-transform: uppercase;
+}
+
+.itallic {
+	font-style: italic;
+}
+
+.round {
+	border-radius: 20px;
+}
+
+/*
+|||||||||||||||||||||||||||||||||||||||||||
+			=HEADER
+-------------------------------------------
+|||||||||||||||||||||||||||||||||||||||||||
+*/
+
+header {
+	width: 100%;
+	background-color: #e74c3c;
+	display: block;
+	height: 85px;
+	position: fixed;
+	top: 0px;
+	z-index: 999999;
+}
+
+/*
+|||||||||||||||||||||||||||||||||||||||||||
+			=NAVIGATION
+-------------------------------------------
+|||||||||||||||||||||||||||||||||||||||||||
+*/
+
+nav {
+	width: 1000px;
+	text-decoration: none;
+	margin: 0 auto;
+	position: relative;
+}
+
+/*
+---------- =LOGO -------------
+*/
+
+
+.logo {
+	height: 101px;
+	width: 101px;
+	display: inline-block;
+	text-decoration: none;
+	background: url(../images/logo.png) no-repeat;
+	position: absolute;
+	left: 430px;
+	top: 15px;
+}
+
+/*
+---------- =MENU ITEMS -------------
+*/
+
+nav ul {
+	display: inline-block;
+	margin: 45px 30px 18px 170px;
+}
+
+nav ul li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 15px 0 15px;
+}
+
+/*
+---------- =MENU TEXT -------------
+*/
+
+nav ul li a {
+	text-decoration: none;
+	font-size: 20px;
+	text-transform: uppercase;
+	margin: 10px;
+	color: #000;
+	font-family: Tahoma, "Lucida Grande", Arial, sans-serif;
+}
+
+nav ul li a:hover {
+	color: #fff;
+}
+
+.active {
+	color: #fff;
+}
+
+.ri8 {
+	margin-left : 110px;
+}
+
+/*
+|||||||||||||||||||||||||||||||||||||||||||
+			=NAVIGATION END
+			=HEADER END
+			=HOME SECTION BEGINS
+-------------------------------------------
+|||||||||||||||||||||||||||||||||||||||||||
+*/
+
+#home {
+	top: 0px;
+}
+
+
+/*
+---------- =HEADING TEXT -------------
+*/
+
+h1 {
+	font-size: 4em;
+	margin: 145px auto 25px 90px;
+}
+
+h2 {
+	margin: -30px 0px 60px 130px;
+}
+
+/*
+---------- =HEADING TEXT ENDING-------------
+--------------------------------------------
+---------- =INTRO TEXT BEGINS---------------------
+*/
+
+img {
+	width:200px;
+	float: left;
+	margin-left: 100px;
+}
+
+.intro-text {
+	width:650px;
+	float: right;
+}
+
+h3 {
+	font-size: 1.1em;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.intro-text p {
+	width: 495px;
+	margin-left: -30px;
+	line-height: 1.3em;
+	font-style: italic;
+}
+
+blockquote:before {
+	content: open-quote;
+	display: block;
+	float: left;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin: -20px 0px 0px -40px;
+	font-size: 25px;
+	color: #e74c3c;
+}
+
+blockquote:after {
+    content: close-quote;
+	display: block;
+	float: left;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin: -15px 0px 0px -5px;
+	font-size: 25px;
+	color: #e74c3c;
+}
+
+/*
+---------- =INTRO TEXT ENDING -------------
+-------------------------------------------
+---------- =SOCIAL LINKS BEGINS -----------
+*/
+
+div.social {
+	margin: -10px 0px 0px 70px;
+}
+
+.social a {
+	height: 32px;
+	width: 32px;
+	display: inline-block;
+	text-decoration: none;
+	margin: 20px 5px 0px 5px;
+	-webkit-transition:background 1s ease;
+	-moz-transition:background 1s ease;
+	-o-transition:background 1s ease;
+	transition:background 1s ease;
+}
+
+.twitter {
+	background: #6b6b6b url(../images/twitter2.png) no-repeat center;
+}
+
+.twitter:hover {
+	background: #28aae1 url(../images/twitter2.png) no-repeat center;
+}
+
+.facebook {
+	background: #6b6b6b url(../images/fb.png) no-repeat center;
+}
+
+.facebook:hover {
+	background: #3c5a99 url(../images/fb.png) no-repeat center;
+}
+
+.google {
+	background: #6b6b6b url(../images/g+.png) no-repeat center;
+}
+
+.google:hover {
+	background: #dd4b39 url(../images/g+.png) no-repeat center;
+}
+
+.linked-in {
+	background: #6b6b6b url(../images/linked-in.png) no-repeat center;
+}
+
+.linked-in:hover {
+	background: #007bb5 url(../images/linked-in.png) no-repeat center;
+}
+
+.quora {
+	background: #6b6b6b url(../images/quora2.png) no-repeat center;
+}
+
+.quora:hover {
+	background: #9f0500 url(../images/quora2.png) no-repeat center;
+}
+
+.github {
+	background: #6b6b6b url(../images/github2.png) no-repeat center;
+}
+
+.github:hover {
+	background: #000000 url(../images/github2.png) no-repeat center;
+}
+
+.stackof {
+	background: #6b6b6b url(../images/stackof2.png) no-repeat center;
+}
+
+.stackof:hover {
+	background: #000000 url(../images/stackof2.png) no-repeat center;
+}
+
+.flipkart {
+	background: #6b6b6b url(../images/flipkart.png) no-repeat center;
+}
+
+.flipkart:hover {
+	background: #114969 url(../images/flipkart.png) no-repeat center;
+}
+
+
+
+/*
+|||||||||||||||||||||||||||||||||||||||||||
+			=SOCIAL LINKS ENDS
+			=HOME SECTION ENDS
+			=ABOUT SECTION BEGINS
+-------------------------------------------
+|||||||||||||||||||||||||||||||||||||||||||
+*/
+
+/*
+---------- =ABOUT CONTAINER -------------
+*/
+
+#about {
+	top: 700px;
+	height: 800px;
+}
+
+/*
+---------- =HEADING STYLES -------------
+*/
+
+.myself h2 {
+	margin: 150px 0px 35px 0px;
+}
+
+/*
+---------- =PARAGRAPH STYLES -------------
+*/
+
+p.about {
+	width: 660px;
+	line-height: 1.4em;
+}
+
+/*
+---------- =INTEREST LIST STYLES -------------
+*/
+
+.interest {
+	display: inline-block;
+	float: right;
+}
+
+.interest h2 {
+	margin: -300px 70px 37px 20px;
+}
+
+.interest ul {
+	margin-left: 0px;
+}
+
+.interest ul li {
+	margin-bottom: 5px;
+}
+
+/*
+---------- =APPROACH STYLES -------------
+*/
+
+.approach h2 {
+	margin: 65px 20px 20px 150px;
+}
+
+.app-pic {
+	display: block;
+	background: url(../images/approach.png) no-repeat;
+	height: 175px;
+	width: 900px;
+	margin: 50px auto;
+}
+
+/*
+|||||||||||||||||||||||||||||||||||||||||||
+			=APP-PIC ENDS
+			=ABOUT SECTION ENDS
+			=SKILLS SECTION BEGINS
+-------------------------------------------
+|||||||||||||||||||||||||||||||||||||||||||
+*/
+
+/*
+---------- =SKILL CONTAINER -------------
+*/
+
+#skills {
+	height: 600px;
+	position: absolute;
+	top: 1550px;
+}
+
+/*
+---------- =HEADING STYLES -------------
+*/
+
+#skills h2 {
+	margin: 150px 0px 0px 0px;
+}
+
+/*
+---------- =SKILLS DIV STYLES -------------
+*/
+
+.main-skills {
+	width: 450px;
+	height: 600px;
+	margin: 30px 0px 0px 30px;
+	display: inline-block;
+	float: left;
+}
+
+p.skills-head {
+	margin: 5px 0px 10px 0px;
+	width: 280px;
+}
+
+p.heading {
+	width: 235px;
+	margin-bottom: 5px;
+	font-size: 1.2em;
+}
+
+.margin-b {
+	margin-bottom: 25px;
+}
+
+.other-skills {
+	width: 500px;
+	height: 600px;
+	margin: 30px -95px 0px 0px;
+	display: inline-block;
+	float: right;
+}
+
+/*
+---------- =SKILLS PROGRESS STYLES -------------
+*/
+
+.progress {
+	height: 10px;
+	width: 350px;
+	background: #c4c4c4;
+	border-radius: 10px;
+}
+
+.progress div {
+	height: 10px;
+	width: 0%;
+	background: #e74c3c;
+	border-radius: 10px;
+}
+
+/*
+---------- =RESUME BUTTON STYLES -------------
+*/
+
+.button {
+	position: relative;
+	display: inline-block;
+	text-decoration: none;
+	width: 100px;
+	padding: 15px;
+	height: 20px;
+	margin: 20px 0 20px 445px;
+	background: #e74c3c;
+	font-size: 1.2em;
+	-webkit-transition:background 1s ease;
+	-moz-transition:background 1s ease;
+	-o-transition:background 1s ease;
+	transition:background 1s ease;
+}
+
+.button:hover {
+	background: #a81d0f;
+}
+
+.button span {
+	color: #ffffff;
+	display: inline-block;
+}
+
+
+/*
+|||||||||||||||||||||||||||||||||||||||||||
+			=BUTTON-PIC ENDS
+			=SKILLS SECTION ENDS
+			=CONTACT SECTION BEGINS
+-------------------------------------------
+|||||||||||||||||||||||||||||||||||||||||||
+*/
+
+/*
+---------- =CONTACT ME CONTAINER -------------
+*/
+
+
+#contact {
+	top: 2470px;
+}
+
+/*
+---------- =FORM CONTAINER -------------
+*/
+
+.con-form {
+	width: 350px;
+	float: left;
+	margin-bottom: 100px;
+}
+
+/*
+---------- =FORM STYLING -------------
+*/
+
+.con-form h2 {
+	margin: 160px 0px 0px 0px ;
+}
+
+.success {
+	display: none;
+	position: absolute;
+	width: 385px;
+	height: 350px;
+	background: #fff;
+}
+
+.success h2 {
+	margin: 50px 0px 20px 45px;
+}
+
+.con-form p {
+	width: 350px;
+	line-height: 1.2em;
+}
+
+.small {
+	font-size: .9em;
+	margin: -15px 0px 0px 205px;
+}
+
+form {
+	margin: 30px 0px 0px 0px;
+}
+
+
+/*---- =INPUT BOX STYLING -------*/
+
+input, textarea {
+	margin: 10px 0px 15px 0px;
+	width: 340px;
+	color: #a81d0f;
+	border: 1px solid #999;
+	padding: 5px;
+
+}
+
+textarea {
+	height: 70px;
+}
+
+}
+
+input[type="text"], input[type="email"] {
+	height: 20px;
+}
+
+/*---- =INPUT BOX PLACEHOLDER STYLING -------*/
+
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #999;
+    font-size: 0.9em;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #999;
+    font-size: 0.9em;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #999;
+    font-size: 0.9em;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #999;
+    font-size: 0.9em;
+}
+
+
+
+/*---- =INPUT BOX FOCUS STYLING -------*/
+
+input:focus, textarea:focus {
+	outline: none;
+    border: 1px solid #e74c3c;
+}
+
+
+/*---- =INPUT BOX VLIDATION STYLING -------*/
+
+
+input:required, textarea:required {
+	background: #fff url(../images/red_asterisk.png) no-repeat 98% center;
+}
+
+input:focus:invalid, textarea:focus:invalid {
+	background: #fff url(../images/invalid.png) no-repeat 98% center;
+}
+
+input:required:valid, textarea:required:valid {
+	background: #fff url(../images/valid.png) no-repeat 98% center;
+	border: 1px solid #5cd053;
+}
+
+
+/*---- =ERROR DISPLAY STYLING -------*/
+
+.error {
+	text-align: center;
+	font-size: 0.95em;
+	color: #a81d0f;
+	display: block;
+	background: #feaaaa;
+	height: 20px;
+	width: 300px;
+	padding: .5em;
+	margin: 0px auto;
+	display: none;
+}
+
+
+input[type="submit"] {
+	background: #e74c3c;
+	border: 1px solid #e74c3c;
+	height: 30px;
+	width: 100px;
+	color: #fff;
+	float: right;
+	-webkit-transition:background 1s ease;
+	-moz-transition:background 1s ease;
+	-o-transition:background 1s ease;
+	transition:background 1s ease;
+}
+
+input[type="submit"]:hover {
+	background: #a81d0f;
+	border: 1px solid #a81d0f;
+}
+
+input[type="submit"]:disabled {
+	background: #999;
+	border: #999;
+}
+
+
+aside {
+	width: 500px;
+	float: right;
+	margin-bottom: 100px;
+
+}
+
+.location h2 {
+	margin: 160px 0px 0px 0px;
+}
+
+
+.map img {
+	width: 500px;
+	height: 300px;
+	margin: 25px 10px 10px 0px;
+}
+
+footer {
+	clear: both;
+}
+
+footer p {
+	margin: 20px auto 15px 290px;
+	width: 320px;
+}
+
+footer p.myemail {
+	margin: 10px 0 10px 305px;
+    width: 325px;
+}
+
+footer div.social {
+	margin: 0px 0px 0px 270px;
+}
+
+.thanks {
+	width: 600px;
+	margin: 0px auto;
+}
+
+.copyright {
+	margin: 0px auto;
+}
